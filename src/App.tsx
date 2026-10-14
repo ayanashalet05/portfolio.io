@@ -112,7 +112,7 @@ function App() {
             <div className="about-photo">
 
               <img
-                src="/about-photo.jpeg"
+                src={`${import.meta.env.BASE_URL}about-photo.jpeg`}
                 alt="Ayana Shalet"
                 className="about-image"
               />
