@@ -55,6 +55,7 @@ function App() {
   href={`${import.meta.env.BASE_URL}Ayana-Shalet-Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
+  className="resume-btn"
 >
   Download Resume
 </a>
