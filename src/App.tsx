@@ -50,13 +50,15 @@ function App() {
 
             <div className="hero-buttons">
 
-              <a
-  href="/portfolio.io/Ayana-Shalet-Resume.pdf"
+              
+<a
+  href={`${import.meta.env.BASE_URL}Ayana-Shalet-Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
 >
   Download Resume
 </a>
+
 
               <a
                 href="#contact"
