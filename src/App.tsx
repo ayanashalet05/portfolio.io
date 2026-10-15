@@ -51,13 +51,12 @@ function App() {
             <div className="hero-buttons">
 
               <a
-                href="/Ayana-Shalet-Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="primary-button"
-              >
-                ↓ &nbsp; Download Resume
-              </a>
+  href="/portfolio.io/Ayana-Shalet-Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download Resume
+</a>
 
               <a
                 href="#contact"
