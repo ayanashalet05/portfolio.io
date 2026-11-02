@@ -374,6 +374,63 @@ function App() {
     
 
   </div>
+  
+    {/* PROJECT 04 */}
+    <article className="project-showcase">
+      <div className="project-showcase-header">
+        <span className="project-number">04</span>
+        <span className="project-type">FULL-STACK</span>
+      </div>
+
+      <h3>Appointment Booking System</h3>
+
+      <p className="project-overview">
+        The Appointment Booking System is a web application that allows
+        patients to book appointments by providing their personal details,
+        selecting a service, and choosing a preferred date and time.
+      </p>
+
+      <p className="project-details">
+        The application includes patient login, appointment booking history,
+        database integration, and a separate admin dashboard to view and
+        manage appointment records. It uses Flask for backend development
+        and MySQL for storing patient and appointment information.
+      </p>
+
+      <div className="project-info">
+        <div>
+          <h4>My Work</h4>
+          <p>
+            Developed the application using Python and Flask, integrated
+            MySQL for database management, implemented patient login and
+            appointment booking functionality, and created an admin
+            dashboard to display appointment records.
+          </p>
+        </div>
+
+        <div>
+          <h4>Technologies</h4>
+          <div className="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>MySQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Flask-Login</span>
+          </div>
+        </div>
+      </div>
+
+    <a
+  href="https://github.com/ayanashalet05/appointment-booking-system.git"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View Project →
+</a>
+    </article>
+
 </section>
 
         {/* ================= SKILLS ================= */}
